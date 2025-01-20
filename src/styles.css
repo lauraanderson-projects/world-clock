@@ -2,9 +2,57 @@ body {
   background: linear-gradient(to top, #09203f 0%, #537895 100%) fixed;
   font-family: Arial, Helvetica, sans-serif;
 }
+h1 {
+  text-align: center;
+  margin-top: 0px;
+}
+h2 {
+  margin: 0px 0px;
+  font-size: 30px;
+}
+select {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 10px;
+  background-color: #f8f8f8;
+  border-color: #e6e6e6;
+  font-size: 14px;
+  margin-bottom: 40px;
+  color: #537895;
+}
 footer {
   color: rgb(146, 146, 146);
   padding: 40px 0px 0px 0px;
   font-size: 13px;
   text-align: center;
+}
+
+.main-container {
+  background-color: white;
+  max-width: 350px;
+  margin: 40px auto;
+  padding: 30px 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #cfcfcf;
+
+  padding: 20px 0px;
+}
+
+.time {
+  font-size: 28px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 15px;
+}
+.date {
+  opacity: 0.5;
+  font-size: 15px;
 }
